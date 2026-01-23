@@ -38,6 +38,7 @@ TAESD is also compatible with SDXL-based models (using the `taesdxl_*` weights) 
    * [taesdxl](https://huggingface.co/madebyollin/taesdxl)
    * [taesd3](https://huggingface.co/madebyollin/taesd3)
    * [taef1](https://huggingface.co/madebyollin/taef1)
+   * [taef2](https://huggingface.co/madebyollin/taef2)
 * TAESD's original weights are in this repo
 
 ## What can I use TAESD for?
@@ -77,11 +78,9 @@ TAESD trades a (modest) loss in quality for a (substantial) gain in speed and co
 TAESD can be used with any video generator that produces sequences of SD latents, such as [StreamDiffusion](https://github.com/cumulo-autumn/StreamDiffusion) or [AnimateLCM](https://animatelcm.github.io). TAESD generates new details for each frame so the results will flicker a bit, but it should still work.
 
 I've also trained dedicated Tiny AutoEncoders for some common video generators:
-- [TAEW2.1](https://github.com/madebyollin/taehv#what-video-models-does-taehv-support), for Wan 2.1 and Wan 2.2 14B (as well as Qwen Image)
-- [TAEW2.2](https://github.com/madebyollin/taehv#what-video-models-does-taehv-support), for Wan 2.2 5B
-- [TAEHV](https://github.com/madebyollin/taehv), for Hunyuan Video
-- [TAESDV](https://github.com/madebyollin/taesdv), for SD1/SD2/SVD
-- [TAEM1](https://github.com/madebyollin/taem1), for Mochi 1
+- [TAEHV](https://github.com/madebyollin/taehv), for **Hunyuan Video**, **Hunyuan Video 1.5**, **Wan 2.1**, **Wan 2.2**, **Qwen Image**, **CogVideoX**, **Open-Sora 1.3**, and **LTX-2**.
+- [TAESDV](https://github.com/madebyollin/taesdv), for **SD1**, **SD2**, and **SVD**
+- [TAEM1](https://github.com/madebyollin/taem1), for **Mochi 1**
 
 ## Comparison table
 
